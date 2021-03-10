@@ -51,7 +51,7 @@ function mostrar()
         carrera=prompt("Ingrese carrera :(Quimica;Fisica;Sistemas)");
         while(carrera!="Quimica"&&carrera!="Fisica"&&carrera!="Sistemas")
         {
-            carrera=prompt("Ingrese carrera valida :(Quimica;Fisica;Sistemas) ");
+            carrera=prompt("Ingrese carrera valida (Quimica;Fisica;Sistemas) : ");
         }
         sexo=prompt("ingrese sexo (masculino - femenino - no binario): ");
         while(sexo!="masculino"&&sexo!="femenino"&&sexo!="no binario")
@@ -103,9 +103,6 @@ function mostrar()
 
 
         }
-
-    
-        
 
         if(sexo="femenino")
         {

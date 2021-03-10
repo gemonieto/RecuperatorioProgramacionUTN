@@ -40,7 +40,6 @@ function mostrar()
 
 	do
 	{
-
 		nombre=prompt("Nombre: ");
 		while(isNaN(nombre)==false)
 		{
